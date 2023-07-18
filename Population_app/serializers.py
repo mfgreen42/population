@@ -4,4 +4,4 @@ from . models import Population
 class PopulationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Population
-        fields = ["id", "name", "country", "population", "limit"]
+        fields = ["id", "name", "latitude", "longitude", "country", "population", "is_capital"]
