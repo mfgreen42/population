@@ -120,3 +120,6 @@ try:
     from Population.local_settings import *
 except ImportError:
     pass
+
+
+'COERCE_DECIMAL_TO_STRING': False
