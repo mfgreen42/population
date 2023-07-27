@@ -122,4 +122,4 @@ except ImportError:
     pass
 
 
-'COERCE_DECIMAL_TO_STRING': False
+# 'COERCE_DECIMAL_TO_STRING': False
